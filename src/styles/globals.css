@@ -1,0 +1,83 @@
+/* @tailwind base;
+@tailwind components;
+@tailwind utilities; */
+.ant-row {
+ display: flex;   
+ justify-content: space-evenly;
+ align-items: center;
+}
+.ant-col {
+    display: flex;
+    flex-direction: column;
+}
+
+.action-field {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30px;
+}
+.action-field:last-child {
+margin-bottom: 0 !important;
+}
+
+.ant-space-item >span {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.ant-row.call-to-action {
+    flex-direction: column;
+}
+
+.ant-input-number.royalties-input {
+display: flex;
+flex-direction: row-reverse;
+}
+
+.ant-input-number-handler-wrap {
+    display: flex;
+    flex-direction: column;
+}
+
+input {
+    height: 50px;
+    width: 100%;
+}
+.ant-row.ant-form-item.url-form-action {
+    flex-direction: row !important;
+}
+.ant-row.ant-form-item.url-form-action >div{ 
+    width: 40%;
+}
+.action-field > * { 
+
+width: 100%;
+}
+.action-field .ant-input-affix-wrapper.input, .action-field textarea {
+    
+    width: 100%;
+}
+.action-field textarea {
+    min-height: 100px;
+}
+.ant-input-affix-wrapper {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.ant-input-number-input-wrap {
+    width: 100%;
+}
+
+.ant-col.ant-form-item-control {
+    width: 100%;
+}
+.ant-space.ant-space-horizontal.ant-space-align-baseline {
+display: flex;
+align-items: center;
+}
+
+.height-p50 {
+    height: 50px;
+}
